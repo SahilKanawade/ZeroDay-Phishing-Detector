@@ -1,0 +1,109 @@
+# ============================================================
+# PYTHON
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.pyo
+*.pyd
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+
+# ============================================================
+# FASTAPI / BACKEND
+# ============================================================
+
+*.log
+
+# Local development files
+*.sqlite
+*.db
+
+
+# ============================================================
+# MACHINE LEARNING
+# ============================================================
+
+# Temporary ML files
+ml/tmp/
+ml/cache/
+
+# Training outputs that should not be committed
+ml/evaluation/results/
+ml/evaluation/*.json
+
+
+# ============================================================
+# NODE / REACT / VITE
+# ============================================================
+
+frontend/node_modules/
+
+frontend/dist/
+frontend/.vite/
+
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Vite environment files
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+
+# ============================================================
+# IDE
+# ============================================================
+
+.vscode/
+.idea/
+
+*.code-workspace
+
+
+# ============================================================
+# WINDOWS
+# ============================================================
+
+Thumbs.db
+Desktop.ini
+
+$RECYCLE.BIN/
+
+
+# ============================================================
+# OS / EDITOR
+# ============================================================
+
+.DS_Store
+
+*.swp
+*.swo
+
+
+# ============================================================
+# SECRETS
+# ============================================================
+
+*.pem
+*.key
+
+credentials.json
+secrets.json
